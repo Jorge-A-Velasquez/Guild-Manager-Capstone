@@ -119,3 +119,9 @@ class Game:
             locales.locations[coords] = MapTile(self.LOCALE_ID)
             self.LOCALE_ID += 1
         return locales
+    
+    # def Get_Location(self, name) -> MapTile:
+    #     for locale in self.map:
+    #         if locale[1].name == name:
+    #             return locale
+    #     return None
